@@ -1,4 +1,9 @@
-from student_data import Student
+# Hides the complexity's from the user.
+
+
+from abc import ABC # Used when using abstraction
+class Student(ABC):
+    # method initializes the abstract method
 
 
 class Devops(Student):
@@ -12,4 +17,3 @@ class Devops(Student):
 
     def roll_call(self):
         print("I am a Devops Student")
-

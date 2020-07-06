@@ -1,4 +1,4 @@
-
+# Abstraction
 # Hides the complexity's from the user.
 
 class Student:
@@ -16,6 +16,4 @@ class Student:
         self.first_name = first_name
         self.last_name = last_name
 
-    def test_questions(self):
-        pass
 
